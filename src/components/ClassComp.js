@@ -6,6 +6,13 @@ export default class ClassComp extends Component {
         this.state = { count: 0 };
     }
 
+    componentDidUpdate() {
+        const { count } = this.state;
+        if (count % 2 === 0) {
+            console.log("In ClassComp:" + count);
+        }
+    }
+
     render() {
         const { count } = this.state;
         const type = this.props.ctype;
