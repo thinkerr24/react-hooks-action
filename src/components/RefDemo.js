@@ -1,10 +1,10 @@
-import React, { useEffect, useReducer, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const Input = React.forwardRef((props, ref) =>  {
     return <input ref={ref}/>
 })
 export default function RefDemo() {
-    const aref = useReducer();
+    const aref = useRef();
     useEffect(() => {
         aref.current.focus();
         // deliver value
