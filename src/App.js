@@ -5,6 +5,7 @@ import ReducerDemo from "./components/ReducerDemo";
 import ContextDemo from "./components/ContextDemo";
 import HooksDemo from './components/HooksDemo';
 import RefDemo from "./components/RefDemo";
+import CallbackMemoDemo from "./components/CallbackMemoDemo";
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
@@ -18,6 +19,7 @@ function App() {
        <ContextDemo />
        <HooksDemo />
        <RefDemo />
+       <CallbackMemoDemo />
     </div>
   );
 }
