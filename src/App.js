@@ -3,6 +3,7 @@ import ClassComp from "./components/ClassComp";
 import FuncComp from "./components/FuncComp";
 import ReducerDemo from "./components/ReducerDemo";
 import ContextDemo from "./components/ContextDemo";
+import HooksDemo from './components/HooksDemo';
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
@@ -14,6 +15,7 @@ function App() {
        {isVisible && <FuncComp ctype={"FuncComp"} /> }
        <ReducerDemo />
        <ContextDemo />
+       <HooksDemo />
     </div>
   );
 }
