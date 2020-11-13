@@ -4,6 +4,7 @@ import FuncComp from "./components/FuncComp";
 import ReducerDemo from "./components/ReducerDemo";
 import ContextDemo from "./components/ContextDemo";
 import HooksDemo from './components/HooksDemo';
+import RefDemo from "./components/RefDemo";
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
@@ -16,6 +17,7 @@ function App() {
        <ReducerDemo />
        <ContextDemo />
        <HooksDemo />
+       <RefDemo />
     </div>
   );
 }
